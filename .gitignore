@@ -1,0 +1,22 @@
+# Local items
+instructions.md
+AGENTS.md
+
+# Web dev
+node_modules/
+dist/
+build/
+
+# Render artifacts
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.psd
+
+# External reference
+/website
+
+# OS generated files
+.DS_Store
+Thumbs.db

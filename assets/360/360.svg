@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="2400"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  version="1.1"
+  viewBox="0 0 1200 2400"
+>
+  <defs>
+    <style>
+      line,
+      polyline,
+      path {
+        fill: none;
+        stroke: white;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+      circle {
+        fill: white;
+      }
+      text {
+        fill: white;
+        font-size: 36px;
+        font-family: Arial;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <image
+    width="1200"
+    height="800"
+    transform="translate(0 0)"
+    xlink:href="front.webp"
+  />
+  <image
+    width="1200"
+    height="800"
+    transform="translate(0 800) "
+    xlink:href="side.webp"
+  />
+  <image
+    width="1200"
+    height="800"
+    transform="translate(0 1600) "
+    xlink:href="back.webp"
+  />
+  <text transform="translate(500.7 81.2)">
+    <tspan x="0" y="0">Center Wide</tspan>
+  </text>
+  <text transform="translate(121.1 622.4)">
+    <tspan x="0" y="0">Right Fovea</tspan>
+  </text>
+  <text transform="translate(900.6 622.4)">
+    <tspan x="0" y="0">Left Fovea</tspan>
+  </text>
+  <g>
+    <line x1="223.6" y1="580.5" x2="223.6" y2="520.5" />
+    <g>
+      <line x1="223.6" y1="580.5" x2="223.6" y2="520.5" />
+      <circle cx="223.6" cy="520.5" r="7.5" />
+    </g>
+  </g>
+  <g>
+    <line x1="991.1" y1="580.5" x2="991.1" y2="520.5" />
+    <g>
+      <line x1="991.1" y1="580.5" x2="991.1" y2="520.5" />
+      <circle cx="991.1" cy="520.5" r="7.5" />
+    </g>
+  </g>
+  <g>
+    <line x1="605.6" y1="90.6" x2="605.6" y2="164" />
+    <g>
+      <line x1="605.6" y1="90.6" x2="605.6" y2="164" />
+      <circle cx="605.6" cy="164" r="7.5" />
+    </g>
+  </g>
+  <text transform="translate(523.7 908.7)">
+    <tspan x="0" y="0">MEMS</tspan>
+    <tspan x="2" y="43.2">Driver</tspan>
+  </text>
+  <g>
+    <line x1="577.7" y1="965.2" x2="577.7" y2="1076.7" />
+    <g>
+      <line x1="577.7" y1="965.2" x2="577.7" y2="1076.7" />
+      <circle cx="577.7" cy="1076.7" r="7.5" />
+    </g>
+  </g>
+  <text transform="translate(218.6 1428.2)">
+    <tspan x="0" y="0">MEMS</tspan>
+    <tspan x="2" y="43.2">Mirror</tspan>
+  </text>
+  <g>
+    <line x1="272.6" y1="1391.3" x2="272.6" y2="1298.8" />
+    <g>
+      <line x1="272.6" y1="1391.3" x2="272.6" y2="1298.8" />
+      <circle cx="272.6" cy="1298.8" r="7.5" />
+    </g>
+  </g>
+  <text transform="translate(314.8 1719.8)">
+    <tspan x="0" y="0">Sync</tspan>
+    <tspan x="-19" y="43.2">Trigger</tspan>
+  </text>
+  <text transform="translate(801.6 1719.8)">
+    <tspan x="0" y="0">Sync</tspan>
+    <tspan x="-19" y="43.2">Trigger</tspan>
+  </text>
+  <g>
+    <line x1="844.7" y1="1778.4" x2="844.7" y2="1960.2" />
+    <g>
+      <line x1="844.7" y1="1778.4" x2="844.7" y2="1960.2" />
+      <circle cx="844.7" cy="1960.2" r="7.5" />
+    </g>
+  </g>
+  <text transform="translate(522 1719.3)">
+    <tspan x="0" y="0">USB Hub</tspan>
+  </text>
+  <g>
+    <line x1="600" y1="1728.3" x2="600" y2="1784" />
+    <g>
+      <line x1="600" y1="1728.3" x2="600" y2="1784" />
+      <circle cx="600" cy="1784" r="7.5" />
+    </g>
+  </g>
+  <g>
+    <polyline points="297.2 1959.5 297.2 1860.3 357.8 1860.3 357.8 1778.4" />
+    <circle cx="297.2" cy="1959.5" r="7.5" />
+  </g>
+  <g>
+    <path
+      d="M600,1973.2c0,138.2,37.1,171.1,59.5,187.5,18.2,13.4,55.2,23.3,154.6,23.9"
+    />
+    <circle cx="600" cy="1973.2" r="7.5" />
+  </g>
+  <text transform="translate(826.4 2196.7)">
+    <tspan x="0" y="0">Core</tspan>
+    <tspan x="0" y="43.2">Control</tspan>
+    <tspan x="0" y="86.4">Module</tspan>
+  </text>
+</svg>
